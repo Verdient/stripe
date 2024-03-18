@@ -1,0 +1,30 @@
+{
+    "name": "verdient/stripe",
+    "description": "stripe",
+    "type": "library",
+    "keywords": [
+        "Stripe"
+    ],
+    "homepage": "https://github.com/Verdient/stripe",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Verdient.",
+            "email": "fagui.zhu@foxmail.com",
+            "homepage": "https://github.com/Verdient"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/Verdient/stripe/issues",
+        "source": "https://github.com/Verdient/stripe"
+    },
+    "require": {
+        "php": ">=7.0.0",
+        "verdient/http-api": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Verdient\\Stripe\\": "src"
+        }
+    }
+}
